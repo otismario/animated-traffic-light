@@ -1,0 +1,109 @@
+/* General Properties */
+body{
+  background-color: white;
+}
+
+.traffic-post{
+  display: flex;
+    
+}
+
+#signal-lights{
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 10%;
+  background-color: #000;
+  height: 450px;
+  width: 200px;
+  border-radius: 25px;  
+}
+
+.testing{
+  position: relative;
+  top:1%;
+  bottom: 5%;
+  left:25%;
+  right:25%;
+  margin-top:16.6%;
+  width:100px;
+  height:100px;
+  border-radius: 50%;  
+}
+
+
+/* Animation porperties */
+/*  Red signal light for stop  */
+.red{
+  animation: stop 10s linear infinite;
+/*   animation-name:stop;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+ }
+
+/* Amber signal light for warning */
+.yellow{
+  animation: warning 10s linear infinite;
+/*   animation-name:warning;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+
+/* Green signal light for go */
+.green{
+  animation-name:go;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+/* @Keyframes */
+
+/* Keyframes that will control the green traffic light for go */
+@keyframes go {
+  0% {
+    background-color: green;
+    opacity: 0.2;
+  }
+  
+  1%, 40% {
+    background: green;
+    opacity: 1;
+  }
+  
+  41%, 100% {
+     background-color: green;
+     opacity: 0.2;
+  }
+}
+
+/* Keyframes that will control the traffic light for stop */
+@keyframes stop {
+  0%, 60% {
+    background-color: red;
+    opacity: 0.2;
+  }  
+  62%, 100% {
+     background-color: red;    
+  }
+}
+
+/* Keyframes that will control the yellow traffic light for warning */
+@keyframes warning {
+  0%, 40% {
+    background-color: yellow;
+    opacity: 0.2;
+  }  
+  42%, 60% {
+    background-color: yellow;
+    opacity: 1;
+  }  
+  62%, 100% {
+     background-color: yellow;
+     opacity: 0.2;
+  }
+}
+
+
