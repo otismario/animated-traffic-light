@@ -7,3 +7,6 @@ Working with this, you must have basic knowledge of CSS animation, how and when 
 
 Never fail to visit W3School on https://www.w3schools.com to pick up any forgotten line of code.
 
+Watch out for more stuffs that i will be pushing out here
+
+ ![Super Mario](https://raw.githubusercontent.com/otismario/personal-images/master/super%20mario.jpeg?token=AGCFOCQH4NP7M6BAA7BJ5GC56AA6O)
